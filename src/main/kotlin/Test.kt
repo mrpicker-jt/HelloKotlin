@@ -1,20 +1,34 @@
+import kotlin.reflect.KClass
+
+var age: Int = 12;
+var name: String = "JT";
+var name2: String? = null
+
 fun main(args: Array<String>) {
-
+    val age = 18;
+    val name = "jt"
+    println("我叫%d,我今年%d岁");
 }
 
-class Cat(height: Int) : Animal() {
+fun myPrintLen(str: String): String {
+    println("Name is $str")
+    return str
+}
 
-    constructor(height: Int, width: Int) : this(height) {
-        
-    }
-
-    var age: Int = 1
-
-    fun run() {
-
+/**
+ * 单例写法
+ */
+object MySingle{
+    @JvmStatic
+    fun sayMessage(msg:String?){
+        println("$msg")
     }
 }
 
-open class Animal {
-    var name: String = "Mio"
+fun testClass(clazz:Class<JavaMain>){
+    println(clazz.simpleName)
+}
+
+fun testClass(clazz: KClass<KotlinMain>){
+    println(clazz.simpleName)
 }
