@@ -6,7 +6,7 @@ val map = mapOf("a" to 1, "b" to 2, "c" to 3)
 
 fun main(args: Array<String>) {
 //    val customer = Customer("jt", "17610885580")
-//    customer.name = "jt2"
+//    customer.course1.getName = "jt2"
 //    println(customer)
 
 //    foo("C")

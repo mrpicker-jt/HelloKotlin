@@ -1,3 +1,5 @@
+package course1
+
 import kotlin.reflect.KClass
 
 var age: Int = 12;

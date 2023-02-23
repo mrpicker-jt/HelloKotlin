@@ -1,3 +1,5 @@
+package course1;
+
 public class JavaMain {
     public static final int in = 1;
     public static final String out = "2";
