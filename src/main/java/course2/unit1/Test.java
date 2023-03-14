@@ -1,4 +1,4 @@
-package course2;
+package course2.unit1;
 
 import kotlin.io.FilesKt;
 import kotlin.text.Charsets;
